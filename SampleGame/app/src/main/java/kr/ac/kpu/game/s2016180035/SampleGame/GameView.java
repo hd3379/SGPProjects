@@ -1,5 +1,6 @@
 package kr.ac.kpu.game.s2016180035.SampleGame;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -10,6 +11,8 @@ import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.Nullable;
+
+import java.util.logging.Handler;
 
 public class GameView extends View {
     private static final String TAG = "Drawing Ball";
@@ -30,12 +33,18 @@ public class GameView extends View {
 
     private void doGameFrame() {
 //        update();
-        x+=0.01;
-        y+=0.02;
+        x+=1;
+        y+=2;
 //        draw();
         invalidate();
 
-        
+        postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                doGameFrame();
+            }
+        }, 15);
+        //doGameFrame();
     }
 
     private void initResources() {
