@@ -8,6 +8,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.Choreographer;
 import android.view.View;
 
 import androidx.annotation.Nullable;
@@ -20,6 +21,8 @@ public class GameView extends View {
 
     private float x;
     private float y;
+    private long lastFrame;
+    private float frameTime;
 
     public GameView(Context context, @Nullable AttributeSet attrs){
         super(context, attrs);
@@ -38,13 +41,13 @@ public class GameView extends View {
 //        draw();
         invalidate();
 
-        postDelayed(new Runnable() {
+        Choreographer.getInstance().postFrameCallback(new Choreographer.FrameCallback() {
             @Override
-            public void run() {
+            public void doFrame(long time) {
+                frameTime = (float)(time - lastFrame) / 1_000_000_000;
                 doGameFrame();
             }
-        }, 15);
-        //doGameFrame();
+        });
     }
 
     private void initResources() {
