@@ -16,7 +16,7 @@
 	2. 상점을 이용하여 재화 수입수단(밭을 사서 돈을 버는등) 및 장식 업그레이드
 	3. 재화 수입과 영역을 점점 키우며 화려해져가는 영역
 
-![image](https://user-images.githubusercontent.com/24929844/114120565-b0910380-9927-11eb-9b04-fc7b5cfd32ee.png)
+![image](https://user-images.githubusercontent.com/24929844/114120659-e46c2900-9927-11eb-92b0-9e9b085317ce.png)
 
 게임 예상 실행모습
 
