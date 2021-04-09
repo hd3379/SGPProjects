@@ -21,4 +21,4 @@
 
 
 개발일정
-![개발일정](https://user-images.githubusercontent.com/24929844/114119149-0fa14900-9925-11eb-97a1-f22c63427f5b.png)
+![개발일정](https://user-images.githubusercontent.com/24929844/114119259-47a88c00-9925-11eb-82ec-6ea3536f2c24.png)
