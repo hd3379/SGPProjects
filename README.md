@@ -18,3 +18,7 @@
 
 게임 예상 실행모습
 ![image](https://user-images.githubusercontent.com/24929844/114117780-65282680-9922-11eb-9c3a-8a182e2d9b5d.png)
+
+
+개발일정
+![개발일정](https://user-images.githubusercontent.com/24929844/114119149-0fa14900-9925-11eb-97a1-f22c63427f5b.png)
