@@ -17,8 +17,10 @@
 	3. 재화 수입과 영역을 점점 키우며 화려해져가는 영역
 
 게임 예상 실행모습
+
 ![image](https://user-images.githubusercontent.com/24929844/114117780-65282680-9922-11eb-9c3a-8a182e2d9b5d.png)
 
 
 개발일정
+
 ![개발일정](https://user-images.githubusercontent.com/24929844/114119259-47a88c00-9925-11eb-82ec-6ea3536f2c24.png)
