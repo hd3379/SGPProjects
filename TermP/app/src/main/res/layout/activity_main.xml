@@ -9,7 +9,6 @@
     <kr.ac.kpu.game.s2016180003.termp.TileView
         app:map="@raw/desert"
         app:tileset="@mipmap/tmw_desert_spacing"
-        app:sizeFactor="16"
         android:id="@+id/tileView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

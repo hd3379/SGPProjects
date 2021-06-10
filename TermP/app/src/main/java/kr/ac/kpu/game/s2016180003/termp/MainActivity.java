@@ -1,9 +1,8 @@
-package kr.ac.kpu.game.s2016180003.rulethesky;
+package kr.ac.kpu.game.s2016180003.termp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
 

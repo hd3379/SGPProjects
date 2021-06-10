@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TileView">
+        <attr name = "map" format="reference"/>
+        <attr name="tileset" format="reference"/>
+        <attr name="sizeFactor" format="reference"/>
+    </declare-styleable>
+</resources>
