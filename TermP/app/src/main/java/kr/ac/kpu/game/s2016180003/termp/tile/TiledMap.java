@@ -10,8 +10,8 @@ import java.util.ArrayList;
 
 public class TiledMap {
     private static final String TAG = TiledMap.class.getSimpleName();
-    private int x;
-    private int y;
+    private int x = 6000;
+    private int y = 6000;
     private boolean wraps;
 
     public int getX() {
@@ -91,7 +91,7 @@ public class TiledMap {
         TiledLayer layer = layers.get(layerIndex);
 
         int sx = x, sy = y;
-        if (wraps) {
+       /* if (wraps) {
             int fullWidth = getFullWidth();
             sx %= fullWidth;
             if (sx < 0) {
@@ -102,7 +102,7 @@ public class TiledMap {
             if (sy < 0) {
                 sy += getFullHeight();
             }
-        }
+        }*/
 
         int tile_x = (int) (sx / dstTileWith);
         int tile_y = (int) (sy / dstTileHeight);
